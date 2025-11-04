@@ -1,5 +1,8 @@
 package com.example.common.error;
 
+import lombok.Getter;
+
+@Getter
 public class CoreException extends RuntimeException {
   private final ErrorType errorType;
   private final String customMessage;
